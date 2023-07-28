@@ -1,0 +1,60 @@
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+user-select: none;
+}
+body{
+display: flex;
+height: 100vh;
+justify-content: center;
+align-items: center;
+background:linear-gradient(to right,black,rgb(75, 73, 73),black);
+}
+div h1{
+text-align: center;
+margin-bottom: 20px;
+user-select: none;
+}
+table{ 
+background:transparent;
+border-spacing: 5px;
+border: 1px black solid;
+box-shadow: 0 0 20px black ;
+padding: 10px 20px; 
+}
+table .btn{
+width: 40px;
+text-align: center;
+line-height: 50px;
+color:#fff;
+font-size: 1.5em;
+cursor: pointer;
+border-radius: 4px;
+box-shadow: 0 0 20px black ;
+background: transparent;
+margin: 5px;
+}
+table .btn:hover{ 
+background-color: gray;
+}
+#islem, #gosterge{
+padding:5px;
+text-align: right;
+border-radius: 3px;
+}
+#gosterge{
+height: 60px;
+background:transparent;
+color:white;
+font-size: 1.8em;
+text-align: right;
+line-height: 40px;
+padding:10px;
+box-sizing: border-box;
+box-shadow: 0 0 20px black ;
+background: transparent;
+}
+#islem{
+background: #aaa;
+}
